@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+  </head>
+  <body>
+    <!-- This is the heading -->
+    <h1 class="background">Change Calculator!</h1>
+
+    <!--title and input fields for user interaction-->
+      <div class="background">
+        <div class="saleAmount background">
+          <h3>Current Purchase Cost</h3>
+          <input id="amount-due" placeholder="amount"/>
+        </div>
+        <div class="customerAmount background">
+          <h3>Money for Purchase</h3>
+          <input id="amount-received" placeholder="amount"/>
+        </div>
+        <div id="button">
+          <button id="calculate-change">Calculate</button>
+        </div>
+      </div>
+
+      <!--Dollars Returned-->
+      <div class="background clearfix">
+        <h1 id="dollar-header">Dollars</h1>
+        <div class="twenty background">
+          <img class="picSize" src="http://www.marshu.com/articles/images-website/articles/presidents-on-us-paper-money/twenty-20-dollar-bill.jpg"/>
+          <h2>Twenty</h2>
+          <p id="twentyOutput">0</p>
+        </div>
+        <div class="ten background">
+          <img class="picSize" src="http://fishbowl.wpengine.netdna-cdn.com/wp-content/uploads/2013/03/ten-dollar-bill-e1363746895652.jpg"/>
+          <h2>Ten</h2>
+          <p id="tenOutput">0</p>
+        </div>
+        <div class="five background">
+          <img class="picSize" src="https://savemoneyfastwithfives.files.wordpress.com/2014/12/fivedollarbill.jpg"/>
+          <h2>Five</h2>
+          <p id="fiveOutput">0</p>
+        </div>
+        <div class="two background">
+          <img class="picSize" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/US_%242_bill_obverse_series_2003_A.jpg/1200px-US_%242_bill_obverse_series_2003_A.jpg"/>
+          <h2>Two</h2>
+          <p id="twoOutput">0</p>
+        </div>
+        <div class="dollars background">
+          <img class="picSize" src="https://2marks.files.wordpress.com/2013/07/george-washington-on-one-dollar-bill.jpg"/>
+          <h2>One</h2>
+          <p id="dollarsOutput">0</p>
+        </div>
+      </div>
+
+      <!--Change Returned-->
+      <div class="change background clearfix">
+        <h1>Change</h1>
+        <div class="quarters background">
+          <img class="picSize" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/2006_Quarter_Proof.png"/>
+          <h2>Quarters</h2>
+          <p id="quartersOutput">0</p>
+        </div>
+        <div class="dimes background">
+          <img class="picSize" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dime_Obverse_13.png/1200px-Dime_Obverse_13.png"/>
+          <h2>Dimes</h2>
+          <p id="dimesOutput">0</p>
+        </div>
+        <div class="nickels background">
+          <img class="picSize" src="https://upload.wikimedia.org/wikipedia/commons/6/62/US_Nickel_2013_Obv.png"/>
+          <h2>Nickles</h2>
+          <p id="nickelsOutput">0</p>
+        </div>
+        <div class="pennies background">
+          <img class="picSize" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/United_States_penny%2C_obverse%2C_2002.png/220px-United_States_penny%2C_obverse%2C_2002.png"/>
+          <h2>Pennies</h2>
+          <p id="penniesOutput">0</p>
+        </div>
+      </div>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+    <!-- Don't forget to add your <script> tag here -->
+  </body>
+</html>

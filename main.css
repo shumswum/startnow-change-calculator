@@ -1,0 +1,80 @@
+body {
+    background-color:lightseagreen;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.customerAmount {
+    padding-bottom: 2%;
+    text-align: center;
+    width: 45%;
+    float: left;
+}
+
+.saleAmount {
+    padding-bottom: 2%;
+    text-align: center;
+    padding-right: 10%;
+    width: 45%;
+    float:left;
+}
+
+.background {
+    background-color: lightsteelblue;
+}
+
+input {
+    width: 90%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.quarters,
+.dimes,
+.nickels,
+.pennies {
+    margin-top: .5%;
+    padding: 0 2.5% 0 2.5%;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.twenty,
+.ten,
+.five,
+.two,
+.dollars {
+    padding: 0 1.5% 0 1.5%;
+    width: 17%;
+    text-align: center;
+    float: left;
+}
+
+#dollar-header {
+    margin-top: .5%;
+}
+
+.picSize {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.change {
+    margin-top: .5%;
+}
+
+button {
+    margin-bottom: .5%;
+}
+
+#button {
+    text-align: center;
+}

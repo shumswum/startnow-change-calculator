@@ -1,0 +1,13 @@
+{
+    "name": "change-calculator",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "jquery": "^3.2.1",
+        "jsdom": "^9.12.0",
+        "mocha": "^3.2.0",
+        "should": "^11.2.1"
+    }
+}
